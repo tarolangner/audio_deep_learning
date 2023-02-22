@@ -5,7 +5,7 @@ This repository contains sandbox experiments in audio processing with deep learn
 Right now, it implements the following technique:
 
 * Classifying recordings of spoken digits with a convolutional neural network on spectrograms
-* Spectrogram inversion via training a 1D transposed convolution layer
+* Modeling of an inverse short-time Fourier transform (STFT) by training a 1D transposed convolution layer
 
 
 ## Background
