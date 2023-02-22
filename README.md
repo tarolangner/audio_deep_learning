@@ -5,6 +5,7 @@ This repository contains sandbox experiments in audio processing with deep learn
 Right now, it implements the following technique:
 
 * Classifying recordings of spoken digits with a convolutional neural network on spectrograms
+* Spectrogram inversion via training a 1D transposed convolution layer
 
 
 ## Background
@@ -23,3 +24,5 @@ The data used here is based on the [AudioMNIST dataset](https://arxiv.org/abs/18
 
 Some of the techniques used here are inspired by the work of Peter Bermant and his colleagues at the Earth Species Project and their repository on source separation: \
 [https://github.com/earthspecies/cocktail-party-problem](https://github.com/earthspecies/cocktail-party-problem)
+And the torch-stft implementation of pseeth at: \
+[https://github.com/pseeth/torch-stft](https://github.com/pseeth/torch-stft)
